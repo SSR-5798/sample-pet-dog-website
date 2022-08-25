@@ -1,0 +1,168 @@
+/* 1st section i.e. title */
+#title{
+  background-color: #ff4c68;
+  height: 630px;
+}
+
+/* header tags */
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 50px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+}
+
+.container{
+  padding: 3% 15%;
+}
+
+/* Navigation bar */
+.navbar{
+  margin: 0 0 70px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light';
+}
+
+/* Download buttons */
+.download-btn{
+  margin: 5% 1%;
+}
+
+/* Title Image */
+.title-image{
+  width: 50%;
+  transform: rotate(24deg);
+  position: relative;
+  left: 40px;
+}
+
+@media (max-width:992px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+    height: auto;
+  }
+}
+
+/* 2nd section i.e. features */
+#features{
+  padding: 70px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+/* 3rd section i.e. testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  margin: 20px;
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* 4th section i.e. press */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-logo{
+  width: 16%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing{
+   background-color: #3EDBF0;
+   padding: 80px;
+   text-align: center;
+}
+
+.pricing-col{
+  padding: 5% 3%;
+}
+
+
+/* CTA section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding : 5% 15%;
+}
+
+.h3-cta{
+  font-family: "Montserrat-Black";
+  font-size: 40px;
+  line-height: 1.5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn-styles{
+  margin: 5% 1% 0;
+}
+
+/* Footer section */
+
+#footer{
+  text-align: center;
+  padding: 3% 20%;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.footer-fonts{
+  margin: 0 5px 15px;
+}
